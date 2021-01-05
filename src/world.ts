@@ -5,16 +5,22 @@ export default class World {
         this.message = message
     }
 
-    public  sayHello(elem: HTMLElement | null) {
+    // public  sayHello(elem: HTMLElement | null) {
+    //     if(elem) {
+    //         return (elem.innerText = this.message)
+    //     } else {
+    //         return
+    //     }
+    // }
+
+    public  sayHello(elem: HTMLElement | null): {
         if(elem) {
-            return (elem.innerText = this.message)
-        } else {
-            return
+            elem.innerText = this.message
         }
     }
 
 
 
 
-    
+
 }
