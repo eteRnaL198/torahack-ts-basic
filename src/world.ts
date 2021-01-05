@@ -13,7 +13,7 @@ export default class World {
   //     }
   // }
 
-  public sayHello(elem: HTMLElement | null) {
+  public sayHello(elem) {
     if (elem) {
       elem.innerText = this.message
     }
