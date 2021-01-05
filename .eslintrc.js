@@ -9,9 +9,7 @@ module.exports = {
         "prettier",
         "prettier/@typescript-eslint"
     ],
-    plugins: [
-        "@typescript-eslint"
-    ],
+    plugins: ["@typescript-eslint"],
     parser: "@typescript-eslint/parser",
     parserOptions: {
         "sourceType": "module",
